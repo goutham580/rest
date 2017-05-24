@@ -18,7 +18,7 @@ public class JSONService {
 
 		
 	@GET
-	@Path("/list_A")
+	@Path("/list_B")
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Distrubutor> getDistrubutors() {
 		List<Distrubutor> resultList = null;
